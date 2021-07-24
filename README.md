@@ -12,3 +12,4 @@
 - [Adicionando estilos (CSS)](./topics/css.md)
 - [Criando um slider de imagens](./topics/slider.md)
 - [Criando um slider de produtos](./topics/slider-produtos.md)
+- [Como criar um template dentro de um tema customizado](./topics/template-customizado.md)
