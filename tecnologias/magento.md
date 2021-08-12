@@ -1,5 +1,8 @@
 ## Magento
 
+### Geral
+- [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
+
 ### Tema
 - [Criando um tema](./topics/criando-tema.md)
 - [Estrutura de uma página](./topics/estrutura.md)
