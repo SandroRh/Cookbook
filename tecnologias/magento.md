@@ -2,6 +2,8 @@
 
 ### Geral
 - [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
+- [Fluxo de trabalho no GitLab](./topics/magento-fluxogitlab.md)
+- [Como descobrir src de classes forçando erros](./topics/magento-forcandoerros.md)
 
 ### Tema
 - [Criando um tema](./topics/criando-tema.md)
@@ -16,3 +18,8 @@
 - [Criando um slider de imagens](./topics/slider.md)
 - [Criando um slider de produtos](./topics/slider-produtos.md)
 - [Como criar um template dentro de um tema customizado](./topics/template-customizado.md)
+
+### Email Template
+- [Workflow com Email Template](./topics/workflowemailtemplate.md)
+- [Como adicionar imagens](./topics/addimages.md)
+- [Inserir código php em um email template através de um block](./topics/emailblock.md)
