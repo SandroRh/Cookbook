@@ -4,6 +4,8 @@
 - [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
 - [Fluxo de trabalho no GitLab](./topics/magento-fluxogitlab.md)
 - [Como descobrir src de classes forçando erros](./topics/magento-forcandoerros.md)
+- [Como estender uma classe (block)](./topics/magento-extendclasses.md)
+- [Events e Observers](./topics/magento-eventobservers.md)
 
 ### Tema
 - [Criando um tema](./topics/criando-tema.md)
@@ -23,3 +25,4 @@
 - [Workflow com Email Template](./topics/workflowemailtemplate.md)
 - [Como adicionar imagens](./topics/addimages.md)
 - [Inserir código php em um email template através de um block](./topics/emailblock.md)
+- [Onde ir para alterar as configurações padrões de emails de venda](./topics/magento-customemail.md)

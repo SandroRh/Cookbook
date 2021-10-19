@@ -1,0 +1,1 @@
+Admin Panel > Stores > Setting > Configuration > Sales > Sales Emails
