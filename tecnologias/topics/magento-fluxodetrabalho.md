@@ -7,3 +7,22 @@
 7. Rodar o setup:upgrade
 8. Rodar o setup:di:compile
 9. Alterar o modo de deploy para developer
+
+## Método 2
+
+1) Acesso ao gitlab (favor enviar e-mail FCamara)
+2) Clonar repositório local
+3) Extrair docker na pasta .docker na raiz do projeto Magento
+4) Verificar Jira e puxar uma task para iniciar o desenvolvimento
+5) Criar uma nova branch "sempre" a partir de Master
+    - git fetch
+    - git checkout master
+    - git reset --hard origin/master
+    - git checkout -b feature/ID-TASK-JIRA
+6) Terminou a task? Fazer o push da Branch e criar um Merge Request para a Master e enviar o link para Avalição de código (Code Review)
+7) Code Review validado? Fazer o merge da "sua" branch para a branch "Staging" (O Merge Request se mantém lá, pois o mesmo será mergeado no dia do deploy)
+8) Tarefa aprovada em Staging? Então deixa com a gente kkk...
+--------------------
+1) Clonar projeto Magento (Não precisa rodar nenhum comando de instalação, somente o clone mesmo)
+2) Fazer o clone do docker dentro da pasta .docker (Não precisa rodar nenhum comando de instalação, somente o clone mesmo)
+3) Entrar na pasta .docker e executar o comando ./run_install.sh

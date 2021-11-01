@@ -4,8 +4,10 @@
 - [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
 - [Fluxo de trabalho no GitLab](./topics/magento-fluxogitlab.md)
 - [Como descobrir src de classes forçando erros](./topics/magento-forcandoerros.md)
-- [Como estender uma classe (block)](./topics/magento-extendclasses.md)
+- [Como criar módulos e fazer rewrite](./topics/magento-extendclasses.md)
 - [Events e Observers](./topics/magento-eventobservers.md)
+- [Como configurar o xdebug](./topics/magento-xdebug.md)
+- [Como criar language pack (Ou estender)](./topics/magento-languagepack.md)
 
 ### Tema
 - [Criando um tema](./topics/criando-tema.md)
