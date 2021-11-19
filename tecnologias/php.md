@@ -8,3 +8,6 @@
 
 ### Composer
 - [Como rodar o composer sem limite de memória](./topics/php-composersemlimite.md)
+
+### General
+- [Regex](./topics/php-regex.md)
