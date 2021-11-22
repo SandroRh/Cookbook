@@ -7,6 +7,7 @@
 - [Como criar módulos e fazer rewrite](./topics/magento-extendclasses.md)
 - [Events e Observers](./topics/magento-eventobservers.md)
 - [Como configurar o xdebug](./topics/magento-xdebug.md)
+- [Como configurar o CodeSniffer](./topics/magento-codesniffer.md)
 - [Como criar language pack (Ou estender)](./topics/magento-languagepack.md)
 
 ### Tema
@@ -28,3 +29,7 @@
 - [Como adicionar imagens](./topics/addimages.md)
 - [Inserir código php em um email template através de um block](./topics/emailblock.md)
 - [Onde ir para alterar as configurações padrões de emails de venda](./topics/magento-customemail.md)
+
+### Components e KnockoutJS
+
+- [Como funciona e como criar um componente](./topics/magento-criarcomponent.md)
