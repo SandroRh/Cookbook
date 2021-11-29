@@ -54,8 +54,27 @@ O arquivo xdebug.ini deverá ser copiado para dentro da pasta do php, em conf.d.
 Exemplo no Dockerfile:
 ```dockerfile
 COPY xdebug/xdebug.ini "${PHP_INI_DIR}/conf.d"
+
+RUN docker-php-ext-enable xdebug
 ```
 
+## Windows
+Recurso: https://www.youtube.com/watch?v=UjmVf10m8Mw
+
+### Configurações
+zend_extension=xdebug
+
+xdebug.mode=debug,develop
+
+xdebug.start_with_request=yes
+
+xdebug.client_host="127.0.0.1"
+
+xdebug.idekey=PHPSTORM
+
+xdebug.remote_port=9000
+
+xdebug.log_level=0
 ## Considerações
 
 Todas as informações acima podem ser conferidas também no Google. Utilize o vídeo deixado como recurso para se lembrar do passo-a-passo.
