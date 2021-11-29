@@ -7,3 +7,6 @@
 ### Permissões
 - [Entendendo as permissões no linux](./topics/linux-permissoes.md)
 - [Grupos de usuário no linux - Como gerir](./topics/linux-gruposdeusuario.md)
+
+### VPS
+- [Como deixar uma tarefa rodando no linux](./topics/linux-bgtask.md)
