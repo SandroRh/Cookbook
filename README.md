@@ -5,3 +5,4 @@
 - [PHP](./tecnologias/php.md)
 - [Docker](./tecnologias/docker.md)
 - [Linux](./tecnologias/linux.md)
+- [CSS](./tecnologias/css.md)

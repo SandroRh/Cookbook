@@ -7,9 +7,10 @@ https://www.youtube.com/watch?v=4opFac50Vwo&t=224s
 ### 1. Configurar o PHP no PHPStorm
 
 - Em Settings, clicar em PHP.
-- Clicar no " + "
-- Clicar em "Docker"
-- Selecionar a imagem
+- Clicar nos três pontinhos do CLI Interpreter.
+- Clicar no " + ".
+- Clicar em "Docker".
+- Selecionar a imagem.
 
 ### 2. No PHPStorm, em Debug
 
@@ -39,10 +40,9 @@ RUN apk --no-cache add pcre-dev ${PHPIZE_DEPS} \
   && apk del pcre-dev ${PHPIZE_DEPS}
 ```
 
-### 5. Configurar o xdebug.ini
+### 5. Configurar o xdebug.ini (ou fazer no próprio php.ini)
 
 ```ini
-zend_extension=xdebug.so
 xdebug.mode=develop,debug
 xdebug.start_with_request=yes
 xdebug.discover_client_host=0
@@ -57,6 +57,18 @@ COPY xdebug/xdebug.ini "${PHP_INI_DIR}/conf.d"
 
 RUN docker-php-ext-enable xdebug
 ```
+
+### 6. Configurar o container do php no docker-compose.yml
+
+Adicionar:
+```yml
+environment:
+  PHP_IDE_CONFIG: serverName=dev.accu-chek
+```
+Onde: serverName faz referência ao próximo passo.
+
+### 7. Adicionar server em PHP -> Servers
+O nome adicionado ao server deve ser o mesmo do yml, nesse caso de exemplo, dev.accu-chek.
 
 ## Windows
 Recurso: https://www.youtube.com/watch?v=UjmVf10m8Mw
