@@ -23,7 +23,6 @@
 - [Adicionando estilos (CSS)](./topics/css.md)
 - [Criando um slider de imagens](./topics/slider.md)
 - [Criando um slider de produtos](./topics/slider-produtos.md)
-- [Como criar um template dentro de um tema customizado](./topics/template-customizado.md)
 
 ### Email Template
 - [Workflow com Email Template](./topics/workflowemailtemplate.md)
@@ -44,3 +43,24 @@
 
 - [Documentação Javascript Developer Guide](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/bk-javascript-dev-guide.html)
 - [Arquivo requirejs-config.js](./topics/magento-requirejs-config.md)
+
+### Debugging
+
+- [Como encontrar templates, blocks e arquivos XML](./topics/magento-templatedebug.md)
+- [Como ver todos os layouts (xml) carregados em uma página](./topics/magento-debuglayout.md)
+
+
+### Templates (.phtml)
+
+- [Como criar um template dentro de um tema customizado](./topics/template-customizado.md)
+- [Como pegar o conteúdo de um template de dentro do template](./topics/template-pegarconteudo.md)
+
+### Blocks
+
+- [Como inserir um block dentro de outro block e acessá-lo no template](./topics/blockinsideblock.md)
+- [Como passar dados para blocks via argumentos no XML](./topics/blockarguments.md)
+
+
+### Helpers
+
+- [O que são Helpers e como criá-los](./topics/helpers.md)
