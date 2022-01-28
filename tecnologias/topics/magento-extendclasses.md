@@ -18,21 +18,23 @@ app/code/Synapcom/CreatedAtFormatted
     __DIR__
 );
 ```
-3. Inserir arquivo di.xml em /etc (CreatedAtFormatted/etc/di.xml)
-```php
+3. Inserir arquivo module.xml em /etc (CreatedAtFormatted/etc/module.xml)
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Synapcom_CreatedAtFormatted" />
+</config>
+```
+
+4. Inserir arquivo di.xml em /etc (CreatedAtFormatted/etc/di.xml)
+```xml
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Magento\Sales\Model\Order" type="Synapcom\CreatedAtFormatted\Model\Rewrite\Order" />
 </config>
 ```
-4. Inserir arquivo module.xml em /etc (CreatedAtFormatted/etc/module.xml)
-```php
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Synapcom_CreatedAtFormatted" />
-</config>
-```
+
 5. Criar pastas necessárias, como definidas acima (Model/Rewrite/Order.php)
 ```php
 <?php

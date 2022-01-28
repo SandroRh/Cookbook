@@ -1,4 +1,4 @@
-## Magento
+## Front end
 
 ### Geral
 - [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
@@ -23,6 +23,7 @@
 - [Adicionando estilos (CSS)](./topics/css.md)
 - [Criando um slider de imagens](./topics/slider.md)
 - [Criando um slider de produtos](./topics/slider-produtos.md)
+- [Como importar fontes](./topics/importar-fontes.md)
 
 ### Email Template
 - [Workflow com Email Template](./topics/workflowemailtemplate.md)
@@ -33,7 +34,7 @@
 ### Components
 
 - [Documentação Ui Components](https://devdocs.magento.com/guides/v2.3/ui_comp_guide/bk-ui_comps.html)
-- [Como funciona e como criar um componente](./topics/magento-criarcomponent.md)
+- [Como funciona e como criar um UI componente](./topics/magento-criarcomponent.md)
 - [Anatomia de um componente](./topics/magento-componentes-anatomia.md)
 - [Como funciona a herança (extend) em componentes](./topics/magento-extendcomponentes.md)
 - [O método initialize e o this._super()](./topics/magento-initializesuper.md)
@@ -42,25 +43,49 @@
 ### Javascript e KnockoutJS
 
 - [Documentação Javascript Developer Guide](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/bk-javascript-dev-guide.html)
+- [Como carregar javascript em um arquivo .phtml](./topics/templatejs.md)
+- [Como carregar javascript independente](./topics/loadjs.md)
+- [Como criar components js](./topics/componentesjs.md)
+- [KnockoutJS: O que são observables](./topics/observables.md)
+- [KnockoutJS: Scope bind](./topics/scope.md)
+- [KnockoutJS: getRegion e getTemplate](./topics/gets.md)
+- [KnockoutJS: childrens](./topics/children.md)
+- [KnockoutJS: getTemplate de qualquer filho - Alternativa para o getRegion](./topics/alternativagetregion.md)
+
+### RequireJS
+
 - [Arquivo requirejs-config.js](./topics/magento-requirejs-config.md)
-
-### Debugging
-
-- [Como encontrar templates, blocks e arquivos XML](./topics/magento-templatedebug.md)
-- [Como ver todos os layouts (xml) carregados em uma página](./topics/magento-debuglayout.md)
+- [Mixins](./topics/mixins.md)
 
 
 ### Templates (.phtml)
 
 - [Como criar um template dentro de um tema customizado](./topics/template-customizado.md)
 - [Como pegar o conteúdo de um template de dentro do template](./topics/template-pegarconteudo.md)
+- [Como atribuir helpers a variáveis dentro de templates](./topics/template-helpers.md)
 
-### Blocks
-
-- [Como inserir um block dentro de outro block e acessá-lo no template](./topics/blockinsideblock.md)
-- [Como passar dados para blocks via argumentos no XML](./topics/blockarguments.md)
-
+## Backend
 
 ### Helpers
 
 - [O que são Helpers e como criá-los](./topics/helpers.md)
+
+### Debugging
+
+- [Como encontrar templates, blocks e arquivos XML](./topics/magento-templatedebug.md)
+- [Como ver todos os layouts (xml) carregados em uma página](./topics/magento-debuglayout.md)
+- [Como debuggar SQL Queries](./topics/magento-debugsql.md)
+
+### Plugins
+
+- [Como utilizar plugins](./topics/plugins.md)
+
+### Blocks
+
+- [Como criar um block genérico](./topics/criarblock.md)
+- [Como inserir um block dentro de outro block e acessá-lo no template](./topics/blockinsideblock.md)
+- [Como passar dados para blocks via argumentos no XML](./topics/blockarguments.md)
+
+### Formulários
+
+- [Como passar um valor e recuperar (Método: POST)](./topics/post.md)

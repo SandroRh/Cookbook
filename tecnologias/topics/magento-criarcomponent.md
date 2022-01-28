@@ -55,7 +55,7 @@ Caminho: templates/hello.pntml
                 "components": {
                     "knockout-tutorial": {
                         "component": "Codilar_HelloWorld/js/viewModel",
-                        "template" : "Codilar_HelloWorld/template"
+                        "template" : "Codilar_HelloWorld/nome"
                     }
                 }
             }
