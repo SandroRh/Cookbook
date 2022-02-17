@@ -31,6 +31,10 @@
 - [Inserir código php em um email template através de um block](./topics/emailblock.md)
 - [Onde ir para alterar as configurações padrões de emails de venda](./topics/magento-customemail.md)
 
+### Ícones
+
+- [Como usar ícones do próprio Magento 2](./topics/magento-icons.md)
+
 ### Components
 
 - [Documentação Ui Components](https://devdocs.magento.com/guides/v2.3/ui_comp_guide/bk-ui_comps.html)
@@ -89,3 +93,8 @@
 ### Formulários
 
 - [Como passar um valor e recuperar (Método: POST)](./topics/post.md)
+
+### Admin
+
+- [Como adicionar itens na listingToolBar](./topics/listingtoolbar.md)
+- [Como usar o exportButton](./topics/exportButton.md)
