@@ -11,7 +11,6 @@ app/code/Synapcom/CreatedAtFormatted
 2. Inserir arquivo registration.php
 ```php
 <?php
-
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
     'Synapcom_CreatedAtFormatted',

@@ -1,10 +1,12 @@
+## Certificações
+
+- [Adobe Certified Professional](./topics/certifications.md)
+
 ## Front end
 
 ### Geral
 - [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
 - [Fluxo de trabalho no GitLab](./topics/magento-fluxogitlab.md)
-- [Como descobrir src de classes forçando erros](./topics/magento-forcandoerros.md)
-- [Como criar módulos e fazer rewrite](./topics/magento-extendclasses.md)
 - [Events e Observers](./topics/magento-eventobservers.md)
 - [Como configurar o xdebug](./topics/magento-xdebug.md)
 - [Como configurar o CodeSniffer](./topics/magento-codesniffer.md)
@@ -70,6 +72,10 @@
 
 ## Backend
 
+### Geral
+
+- [Como usar o sistema de logs no magento 2](./topics/sistemalog.md)
+
 ### Helpers
 
 - [O que são Helpers e como criá-los](./topics/helpers.md)
@@ -96,5 +102,39 @@
 
 ### Admin
 
+- [Access Control List (ACL)](./topics/acl.md)
 - [Como adicionar itens na listingToolBar](./topics/listingtoolbar.md)
 - [Como usar o exportButton](./topics/exportButton.md)
+- [system.xml, config.xml - Como criar e recuperar configurações de Stores -> Configuration](./topics/storesconfiguration.md)
+    - [Como criar um source_model](./topics/sourcemodel.md)
+    - [email_templates.xml](./topics/emailtemplatesxml.md)
+- [Admin Menu](./topics/adminmenu.md)
+- [Admin Grid](./topics/grid.md)
+
+### Classes
+
+- [Como descobrir src de classes forçando erros](./topics/magento-forcandoerros.md)
+- [Quando criar model e quando criar helper](./topics/magento-modelhelper.md)
+- [Object Manager](./topics/magento-objetomanager.md)
+
+### Módulos
+
+- [Como criar módulos e fazer rewrite (preference)](./topics/magento-extendclasses.md)
+- [Como fazer override em arquivos XML](./topics/overridexml.md)
+- [Controller](./topics/controllers.md)
+
+### XML
+
+- [Arguments dentro de blocks](./topics/argumentsxml.md)
+
+### Error dealing
+
+- [Email template 'universal_subscription_cancel_email_email_templates' is not defined.](./topics/erro1.md)
+
+### API
+
+- [Como criar uma API Rest](./topics/apirest.md)
+
+### Cron
+
+- [Cron debug (n98)](./topics/n98.md)

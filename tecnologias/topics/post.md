@@ -1,3 +1,30 @@
+## Objeto Request (API Rest do Magento 2)
+
+```php
+<?php
+
+namespace FCamara\ProductSubscription\Model\Api;
+
+use Magento\Framework\Webapi\Rest\Request;
+
+/**
+ * @var Request
+ */
+protected Request $request;
+
+public function __construct(Request $request)
+{
+    $this->request = $request;
+}
+
+$params = $this->request->getBodyParams();
+}
+
+
+```
+
+## Objeto Request
+
 ```php
 use Magento\Framework\App\RequestInterface;
 
