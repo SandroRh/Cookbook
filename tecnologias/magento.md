@@ -12,6 +12,11 @@
 - [Como configurar o CodeSniffer](./topics/magento-codesniffer.md)
 - [Como instalar e configurar o grunt](./topics/magento-grunt.md)
 - [Como criar language pack (Ou estender)](./topics/magento-languagepack.md)
+- [Como criar patches](./topics/magento-patches.md)
+
+### Tutoriais
+
+- [Como fazer login por redes sociais](./topics/magento-loginredessociais.md)
 
 ### Tema
 - [Criando um tema](./topics/criando-tema.md)
@@ -75,6 +80,7 @@
 ### Geral
 
 - [Como usar o sistema de logs no magento 2](./topics/sistemalog.md)
+- [Como criar CLI Commands](./topics/magento-clicommands.md)
 
 ### Helpers
 
@@ -92,6 +98,7 @@
 
 ### Blocks
 
+- [Como criar um block](./topics/magentocriarblock.md)
 - [Como criar um block genérico](./topics/criarblock.md)
 - [Como inserir um block dentro de outro block e acessá-lo no template](./topics/blockinsideblock.md)
 - [Como passar dados para blocks via argumentos no XML](./topics/blockarguments.md)
@@ -110,6 +117,16 @@
     - [email_templates.xml](./topics/emailtemplatesxml.md)
 - [Admin Menu](./topics/adminmenu.md)
 - [Admin Grid](./topics/grid.md)
+    - [Como adicionar itens em uma admin grid existente](./topics/adicionaritensgrid.md)
+
+### Database
+
+- [Setup Database](./topics/setupdb.md)
+- [CRUD Models (Model, ResourceModel, Collection)](./topics/orm.md)
+- [Factory Object](./topics/factoryobject.md)
+- [Como carregar, salvar ou deletar um registro de uma tabela](./topics/magento-carregarsalvardeletar.md)
+    - [Repository pattern no Magento 2](./topics/magento-repositorypattern.md)
+- [Como manipular collections](./topics/magento-collections.md)
 
 ### Classes
 
@@ -121,11 +138,12 @@
 
 - [Como criar módulos e fazer rewrite (preference)](./topics/magento-extendclasses.md)
 - [Como fazer override em arquivos XML](./topics/overridexml.md)
-- [Controller](./topics/controllers.md)
+- [Controller e routes](./topics/controllers.md)
 
 ### XML
 
 - [Arguments dentro de blocks](./topics/argumentsxml.md)
+- [di.xml - type e virtualType](./topics/typeandvirtualtype.md)
 
 ### Error dealing
 
@@ -138,3 +156,14 @@
 ### Cron
 
 - [Cron debug (n98)](./topics/n98.md)
+
+### UI Components
+
+- [Configuration flow of UI Components](./topics/uicomponentsconfigflow.md)
+- [Como usar UI Components -> Criando uma tab em customer admin edit](./topics/uicomponentsadmin.md)
+    - [Como adicionar uma ação em uma coluna de uma grid](./topics/uiactioncolumns.md)
+    - [Como pegar o id do customer em customer admin edit](./topics/pegarid.md)
+    - [exports, imports, links nodes](./topics/linkingproperties.md)
+    - [Add edit or delete action](./topics/actions.md)
+    - [Modal ao clicar em action](./topics/modalactions.md)
+    - [Como passar dados de uma linha da grid através de action para outro UI Component, um modal, por exemplo](./topics/actiontomodal.md)

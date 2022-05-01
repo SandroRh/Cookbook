@@ -14,7 +14,7 @@ https://express.adobe.com/page/WBhc2rZlIxtWC/
 - [] Describe Magento CLI commands
 - [] Describe cron functionality
 - [x] Given a scenario, describe usage of the di.xml
-- [] Given a scenario, create controllers
+- [x] Given a scenario, create controllers
 - [x] Describe module structure
 - [x] Describe index functionality
 - [x] Describe localization

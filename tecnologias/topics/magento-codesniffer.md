@@ -2,6 +2,8 @@
 
 Aqui você verá o tutorial que eu montei para configurar o Code Sniffer.
 
+Recurso: https://www.youtube.com/watch?v=i4Ji2f9DBr4
+
 ## PHPStorm
 
 ### Configurar o PHP

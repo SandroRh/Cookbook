@@ -5,7 +5,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Customer\Controller\Account\LoginPost">
-        <plugin name="fcamara_after_execute" type="FCamara\OnestepCheckout\Plugin\Controller\Account\LoginPost"
+        <plugin name="FCamara_OnestepCheckout_Plugin_Controller_Account_LoginPost" type="FCamara\OnestepCheckout\Plugin\Controller\Account\LoginPost"
                 sortOrder="1" disabled="false"/>
     </type>
 </config>
