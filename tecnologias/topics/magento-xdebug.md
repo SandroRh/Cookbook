@@ -42,6 +42,8 @@ RUN apk --no-cache add pcre-dev ${PHPIZE_DEPS} \
 
 ### 5. Configurar o xdebug.ini (ou fazer no próprio php.ini)
 
+Observação: Conferir se ele foi importado, pois estará no phpinfo() -> Additional .ini files parsed /usr/local/etc/php/conf.d/xdebug.ini 
+
 ```ini
 xdebug.mode=develop,debug
 xdebug.start_with_request=yes
@@ -90,3 +92,5 @@ xdebug.log_level=0
 ## Considerações
 
 Todas as informações acima podem ser conferidas também no Google. Utilize o vídeo deixado como recurso para se lembrar do passo-a-passo.
+
+https://matthewsetter.com/setup-step-debugging-php-xdebug3-docker/

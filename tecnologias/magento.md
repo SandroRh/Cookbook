@@ -79,8 +79,13 @@
 
 ### Geral
 
-- [Como usar o sistema de logs no magento 2](./topics/sistemalog.md)
 - [Como criar CLI Commands](./topics/magento-clicommands.md)
+- [Extension attributes](./topics/magento-extension-attributes.md)
+
+### Logs
+
+- [Como usar o sistema de logs no magento 2](./topics/sistemalog.md)
+- [Como usar custom files para logs](./topics/customfilelog.md)
 
 ### Helpers
 
@@ -112,12 +117,13 @@
 - [Access Control List (ACL)](./topics/acl.md)
 - [Como adicionar itens na listingToolBar](./topics/listingtoolbar.md)
 - [Como usar o exportButton](./topics/exportButton.md)
-- [system.xml, config.xml - Como criar e recuperar configurações de Stores -> Configuration](./topics/storesconfiguration.md)
+- [system.xml, config.xml - Como criar e recuperar configurações (scopeConfig) de Stores -> Configuration](./topics/storesconfiguration.md)
     - [Como criar um source_model](./topics/sourcemodel.md)
     - [email_templates.xml](./topics/emailtemplatesxml.md)
 - [Admin Menu](./topics/adminmenu.md)
 - [Admin Grid](./topics/grid.md)
     - [Como adicionar itens em uma admin grid existente](./topics/adicionaritensgrid.md)
+    - [sortOrder da grid não funciona? Veja a solução](./topics/magento-gridsortorder.md)
 
 ### Database
 
@@ -127,6 +133,7 @@
 - [Como carregar, salvar ou deletar um registro de uma tabela](./topics/magento-carregarsalvardeletar.md)
     - [Repository pattern no Magento 2](./topics/magento-repositorypattern.md)
 - [Como manipular collections](./topics/magento-collections.md)
+- [Como rodar raw sql queries](./topics/magento-sqlquery.md)
 
 ### Classes
 
@@ -155,7 +162,9 @@
 
 ### Cron
 
+- [Como criar crons](./topics/magento-cron.md)
 - [Cron debug (n98)](./topics/n98.md)
+- [Como listar as crons no banco de dados](./topics/listarcrons.md)
 
 ### UI Components
 

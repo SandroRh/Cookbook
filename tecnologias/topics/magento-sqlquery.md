@@ -1,0 +1,1 @@
+https://meetanshi.com/blog/run-direct-sql-query-in-magento-2/

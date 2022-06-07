@@ -32,4 +32,30 @@ MyClass2 deverá herdar MyClass.
 
 ## Como VirtualTypes funcionam
 
-Virtual Types are the classes that are instantiated by the ObjectManager but have no physical / concrete class located in /app/code or in /generated.
+Um virtualType é uma cópia de uma classe existente. Você pode utilizar essa cópia para fazer alterações no construtor da classe original (via type), sem ser necessário alterar a classe original.
+
+Confira o exemplo abaixo:
+
+```xml
+<!-- Logging -->
+<virtualType name="FCamara\B2E\Logger\Logger" type="Monolog\Logger">
+    <arguments>
+        <argument name="name" xsi:type="string">b2eLogger</argument>
+        <argument name="handlers" xsi:type="array">
+            <item name="system" xsi:type="object">FCamara\B2E\Logger\Handler</item>
+        </argument>
+    </arguments>
+</virtualType>
+<type name="FCamara\B2E\Cron\DisableExpiratedCoupon">
+    <arguments>
+        <argument name="logger" xsi:type="object">FCamara\B2E\Logger\Logger</argument>
+    </arguments>
+</type>
+```
+
+No exemplo acima, fazemos o seguinte:
+
+1. Criamos um virtualType "FCamara\B2E\Logger\Logger" que é uma classe cópia de "Monolog\Logger".
+2. Passamos a string "b2eLogger" para o parâmetro name do construtor.
+3. Passamos um array para o parâmetro handlers do construtor. Esse array é um array de objetos. Por conta disso, passamos o "FCamara\B2E\Logger\Handler" para o objeto system.
+4. Na classe "FCamara\B2E\Cron\DisableExpiratedCoupon" alteramos o logger (Monolog\Logger) para nossa classe cópia (FCamara\B2E\Logger\Logger)

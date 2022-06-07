@@ -11,17 +11,22 @@ app/code/Synapcom/CreatedAtFormatted
 2. Inserir arquivo registration.php
 ```php
 <?php
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Synapcom_CreatedAtFormatted',
+
+use Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::register(
+    ComponentRegistrar::MODULE,
+    'Infracommerce_Sales',
     __DIR__
 );
+
 ```
 3. Inserir arquivo module.xml em /etc (CreatedAtFormatted/etc/module.xml)
 ```xml
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Synapcom_CreatedAtFormatted" />
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Infracommerce_Sales"/>
 </config>
 ```
 

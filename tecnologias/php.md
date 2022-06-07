@@ -1,5 +1,9 @@
 # PHP
 
+### Composer
+
+- [Composer install verbose mode](./topics/composerverbose.md)
+
 ### OOP
 - [Dependency Injection](./topics/di.md)
 
