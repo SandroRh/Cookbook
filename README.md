@@ -7,3 +7,4 @@
 - [Linux](./tecnologias/linux.md)
 - [CSS](./tecnologias/css.md)
 - [Git](./tecnologias/github.md)
+- [Python](./tecnologias/python.md)

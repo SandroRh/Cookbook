@@ -20,7 +20,11 @@ Onde:
 
 `<service/>` define a class que receberá a requisição e o seu método.
 
-`<resources>` indica quem poderá fazer a requisição.
+`<resources>` indica quem poderá fazer a requisição
+`ref` refere-se a uma ACL. Exemplo: Mundipagg_Module::core_customer_save
+
+### Tokens: System -> Integrations
+Obs: Talvez seja necessário criar uma ACL.
 
 ## Passo 2: Criar di.xml
 

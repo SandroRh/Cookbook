@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=4opFac50Vwo&t=224s
 - Clicar em "Docker".
 - Selecionar a imagem.
 
-### 2. No PHPStorm, em Debug
+### 2. No PHPStorm, em PHP -> Debug
 
 - Ignore external connections through unregistered server configurations
 - Max. simultaneous connections: 1

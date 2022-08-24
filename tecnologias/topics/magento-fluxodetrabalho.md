@@ -41,3 +41,7 @@
 1) Clonar projeto Magento (Não precisa rodar nenhum comando de instalação, somente o clone mesmo)
 2) Fazer o clone do docker dentro da pasta .docker (Não precisa rodar nenhum comando de instalação, somente o clone mesmo)
 3) Entrar na pasta .docker e executar o comando ./run_install.sh
+
+## Possíveis erros
+
+- NGINX - 403 Forbidden

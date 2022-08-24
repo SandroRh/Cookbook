@@ -22,8 +22,9 @@ $headers = [
 $username = $this->config->getSecretKey();
 $password = "";
 curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PATCH');
-curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_POST, true); // Post
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PATCH'); // Patch
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data); // Change $data to null if no parameter is required
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($ch, CURLOPT_USERPWD, $username . ":" . $password);

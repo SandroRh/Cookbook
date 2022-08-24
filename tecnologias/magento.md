@@ -13,6 +13,7 @@
 - [Como instalar e configurar o grunt](./topics/magento-grunt.md)
 - [Como criar language pack (Ou estender)](./topics/magento-languagepack.md)
 - [Como criar patches](./topics/magento-patches.md)
+- [Google Tag Manager - DataLayer](./topics/magento-DataLayer.md)
 
 ### Tutoriais
 
@@ -81,6 +82,10 @@
 
 - [Como criar CLI Commands](./topics/magento-clicommands.md)
 - [Extension attributes](./topics/magento-extension-attributes.md)
+- [Redirect previous page](./topics/magento-redirect.md)
+- [Como colocar hyperlink em mensagens do messageManager](./topics/magento-hyperlinkmessagemanager.md)
+- [Um modelo superior ao Chain of Responsability](./topics/magento-modelosuperior.md)
+- [Atributos de produto](./topics/magento-atributos-de-produto.md)
 
 ### Logs
 
@@ -163,6 +168,8 @@
 ### Cron
 
 - [Como criar crons](./topics/magento-cron.md)
+    - [Como as crons do magento funcionam por baixo dos panos](./topics/magento-comofuncionacron.md)
+    - [Cron groups](./topics/magento-crongroups.md)
 - [Cron debug (n98)](./topics/n98.md)
 - [Como listar as crons no banco de dados](./topics/listarcrons.md)
 
@@ -176,3 +183,21 @@
     - [Add edit or delete action](./topics/actions.md)
     - [Modal ao clicar em action](./topics/modalactions.md)
     - [Como passar dados de uma linha da grid através de action para outro UI Component, um modal, por exemplo](./topics/actiontomodal.md)
+
+### Magento cloud
+- [Como baixar arquivos do magento cloud](./topics/magento-baixarcloud.md)
+
+### Magento community/enterprise
+- [Como acessar a máquina via ssh](./topics/magento-community-acessarmaquina.md)
+- [Como conectar no servidor através do PHPStorm](./topics/magento-community-phpstormservidor.md)
+- [Como fazer deploy](./topics/magento-notcloud-deploy.md)
+
+### Nestle workflow
+- [Como fazer upload de um módulo](./topics/magento-nestle.md)
+- [Como customizar um repositório](./topics/magento-nestle-repositorio.md)
+
+### Teste unitário
+
+- [Como preparar o ambiente para criação de testes unitários](./topics/magento-unittest.md)
+- [Passo-a-passo: Desenvolvendo seu primeiro teste unitário](./topics/magento/unittest-passo-a-passo.md)
+- [Teste unitário: How to's](./topics/magento/unittest-howto.md)

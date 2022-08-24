@@ -59,16 +59,14 @@ File: app/code/Mageplaza/HelloWorld/Controller/Index/Index.php
 <?php
 namespace Mageplaza\HelloWorld\Controller\Index;
 
-class Index extends \Magento\Framework\App\Action\Action
+class Index implements HttpGetActionInterface
 {
 	protected $_pageFactory;
 
 	public function __construct(
-		\Magento\Framework\App\Action\Context $context,
 		\Magento\Framework\View\Result\PageFactory $pageFactory)
 	{
 		$this->_pageFactory = $pageFactory;
-		return parent::__construct($context);
 	}
 
 	public function execute()

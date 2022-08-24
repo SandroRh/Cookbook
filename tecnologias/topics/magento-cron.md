@@ -25,3 +25,13 @@ Recurso: https://magefan.com/blog/create-custom-cron-job-in-magento-2
 | +----------- Hour (0 - 23)
 +------------- Minute (0 - 59)
 ``` 
+
+```
+You can use the following cron arrangement. The fields denote (from left-to-right):
+Minute, Hour, Day of Month, Month, Day of Week. The "*/2" in the Day of Month field means "every two days".
+
+0      23     */2       *       * insert_your_script_here.sh
+```
+
+```
+Stores -> Configuration -> System -> Cron

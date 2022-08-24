@@ -29,3 +29,4 @@
 - [array_column() - Recuperar uma informação de um array de arrays](./topics/php-arraycolumn.md)
 - [max($array) - Retorna o valor máximo de um array especificado](./topics/php-max.md)
 - [array_search(value, array) - Procura por um valor em um array](./topics/php-arraysearch.md)
+- [array_merge - Fundindo um array com outro](./topics/php-arraymerge.md)

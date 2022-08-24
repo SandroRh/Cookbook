@@ -38,7 +38,7 @@ finset 	    MySQL FIND_IN_SET, for columns with value like “valeur1,    valeur
 $collection->addFieldToFilter('customer_id', array('eq' => 10));
 ```
 
-## AND contidion with collections
+## AND condition with collections
 
 You can add a “AND” condition on your collection SQL, you have to put many addFieldToFilter : 
 
