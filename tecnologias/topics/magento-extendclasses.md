@@ -35,7 +35,7 @@ ComponentRegistrar::register(
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\Sales\Model\Order" type="Synapcom\CreatedAtFormatted\Model\Rewrite\Order" />
+    <preference for="Magento\Sales\Model\Order" type="Synapcom\CreatedAtFormatted\Model\Rewrite\Order"/>
 </config>
 ```
 

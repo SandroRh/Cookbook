@@ -9,10 +9,10 @@ Estrutura
 
 Código
 ```php
-class Product extends \Magento\Framework\Url\Helper\Data 
+class Product extends extends AbstractHelper
 {
 
 }
 ```
 
-A utilização de helpers é feita via Dependency Injection (DY).
+A utilização de helpers é feita via Dependency Injection (DI).

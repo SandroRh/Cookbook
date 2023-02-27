@@ -27,8 +27,22 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 
 $helper = new ObjectManager($this);
 
+// Dentro de [] ficam os atributos da classe
 $this->view = $helper->getObject(
             View::class,
             ['productTypeConfig' => $this->productTypeConfig, 'registry' => $this->registryMock]
         );
 ```
+
+Nota: Dentro do array de getObject, podemos inserir qualquer atributo/variável que a classe que está sendo testada utilizará como parâmetro, exemplo:
+
+```php
+$this->object = $helper->getObject(
+    AnalyticsTag::class,
+    [
+        '_category' => $this->_category
+    ]
+);
+```
+
+Quando a classe utilizar o $this->_category, o category a ser utilizado será o nosso mock.

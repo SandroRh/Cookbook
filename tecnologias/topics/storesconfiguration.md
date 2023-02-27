@@ -17,30 +17,29 @@ Conteúdo de exemplo do system.xml:
 `File: app/code/Mageplaza/HelloWorld/etc/adminhtml/system.xml`
 ```xml
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="mageplaza" translate="label" sortOrder="10">
-            <label>Mageplaza</label>
+        <tab id="panini" translate="label" sortOrder="999">
+            <label>Panini</label>
         </tab>
-        <section id="helloworld" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
-            <class>separator-top</class>
-            <label>Hello World</label>
-            <tab>mageplaza</tab>
-            <resource>Mageplaza_HelloWorld::helloworld_config</resource>
-            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
-                <label>General Configuration</label>
-                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+        <section id="kiosk_date" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Kiosk Date</label>
+            <tab>panini</tab>
+            <resource>Panini_KioskDate::access</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                   showInStore="0">
+                <label>Module</label>
+                <field id="enabled" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1"
+                       showInStore="0">
                     <label>Module Enable</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                </field>
-                <field id="display_text" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
-                    <label>Display Text</label>
-                    <comment>This text will display on the frontend.</comment>
                 </field>
             </group>
         </section>
     </system>
 </config>
+
 ```
 
 `Observações:`
@@ -58,7 +57,7 @@ Cada campo criado em system.xml inicialmente não terá nenhum valor. Quando voc
     <default>
         <helloworld>
             <general>
-                <enable>1</enable>
+                <enabled>1</enabled>
                 <display_text>Hello World</display_text>
             </general>
         </helloworld>
@@ -98,29 +97,22 @@ Helper file de exemplo:
 ```php
 <?php
 
-namespace Mageplaza\HelloWorld\Helper;
+namespace Panini\KioskDate\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
-use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Store\Model\ScopeInterface;
 
 class Data extends AbstractHelper
 {
+    public const KIOSK_DATE_GENERAL_ENABLED = 'kiosk_date/general/enabled';
 
-	const XML_PATH_HELLOWORLD = 'helloworld/';
-
-	public function getConfigValue($field, $storeId = null)
-	{
-		return $this->scopeConfig->getValue(
-			$field, ScopeInterface::SCOPE_STORE, $storeId
-		);
-	}
-
-	public function getGeneralConfig($code, $storeId = null)
-	{
-
-		return $this->getConfigValue(self::XML_PATH_HELLOWORLD .'general/'. $code, $storeId);
-	}
-
+    /**
+     * @param null $storeId
+     * @return bool
+     */
+    public function isEnabled($storeId = null): bool
+    {
+        return (bool)$this->scopeConfig->getValue(self::KIOSK_DATE_GENERAL_ENABLED, ScopeInterface::SCOPE_STORE);
+    }
 }
 ```

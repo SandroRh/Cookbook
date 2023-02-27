@@ -35,3 +35,25 @@ Minute, Hour, Day of Month, Month, Day of Week. The "*/2" in the Day of Month fi
 
 ```
 Stores -> Configuration -> System -> Cron
+```
+
+## Classe exemplo
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace Infobase\Adyen\Cron;
+
+class ManualCapture
+{
+    public function __construct()
+    {
+    }
+
+    public function execute()
+    {
+        echo "We get here";
+    }
+}
+```

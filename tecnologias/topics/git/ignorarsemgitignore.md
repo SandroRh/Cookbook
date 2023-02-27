@@ -1,0 +1,1 @@
+https://luisdalmolin.dev/blog/ignoring-files-in-git-without-gitignore/

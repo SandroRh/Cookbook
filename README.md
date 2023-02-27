@@ -8,3 +8,4 @@
 - [CSS](./tecnologias/css.md)
 - [Git](./tecnologias/github.md)
 - [Python](./tecnologias/python.md)
+- [Laravel](./tecnologias/laravel.md)

@@ -14,6 +14,8 @@
 </routes>
 ```
 
+Padrão de URL: `/V1/<nome_do_modulo>/<nome_da_acao>`
+
 Onde: 
 
 `<route></route>` define a url e o método.
@@ -59,42 +61,53 @@ interface CustomInterface
 ```php
 <?php
 
-namespace Meetanshi\CustomApi\Model\Api;
+namespace Panini\KioskDate\Model\Api;
 
+use Panini\KioskDate\Api\DateChangeInterface;
 use Psr\Log\LoggerInterface;
 
-class Custom implements CustomInterface
+class DateChange implements DateChangeInterface
 {
-    protected $logger;
+    /**
+     * @var LoggerInterface
+     */
+    private LoggerInterface $logger;
 
     public function __construct(
         LoggerInterface $logger
-    )
-    {
-
+    ) {
         $this->logger = $logger;
     }
 
     /**
      * @inheritdoc
      */
-
-    public function getPost($value)
+    public function getPost(int $storeCode, int $id)
     {
         $response = ['success' => false];
 
         try {
             // Your Code here
-            
-            $response = ['success' => true, 'message' => $value];
+
+            $response = ['success' => true, 'message' => 'lalala'];
         } catch (\Exception $e) {
             $response = ['success' => false, 'message' => $e->getMessage()];
             $this->logger->info($e->getMessage());
         }
-        $returnArray = json_encode($response);
-        return $returnArray; 
+
+        return json_encode($response);
     }
 }
+
 ```
 
 ### Passo 5: bin/magento se:up
+
+### 6. Em caso de erros, verificar o checklist:
+```
+Service interfaces should be in Api folder.
+Dto interfaces should be in Api/Data folder.
+All interface methods should be type hinted. (Argument types, return types)
+Imports should not be used. Specify a full namespace path for class.
+ALL interfaces should have the correct PHPDOC.
+```

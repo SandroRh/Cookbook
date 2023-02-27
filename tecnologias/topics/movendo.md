@@ -9,7 +9,7 @@
 </page>
 ``` 
 
-Onde: `autorizathion-link` é o name do block, e `header-wrapper` é o container.
+Onde: `authorizathion-link` é o name do block, e `header-wrapper` é o container.
 
 # Atributos de \<move>
 `before="-"`: Indica que o elemento deve ser colocado antes de todos no container.

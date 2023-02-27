@@ -1,4 +1,4 @@
-https://www.magenteiro.com/blog/magento-2/models-resource_models-collections/
+https://www.mageplaza.com/magento-2-module-development/how-to-create-crud-model-magento-2.html#step-1-setup-script
 
 ## O que é Model
 

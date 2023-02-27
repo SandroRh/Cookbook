@@ -49,8 +49,6 @@ class EmailConfirmTest extends TestCase
             ->expects($this->once())
             ->method('getById')
             ->with($customerId)
-            ->willReturn($this->custo
-            ->with($customerId)
             ->willReturn($this->customer);
 
         $this->customer

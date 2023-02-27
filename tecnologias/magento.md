@@ -2,18 +2,19 @@
 
 - [Adobe Certified Professional](./topics/certifications.md)
 
-## Front end
-
-### Geral
+## Geral
 - [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
 - [Fluxo de trabalho no GitLab](./topics/magento-fluxogitlab.md)
 - [Events e Observers](./topics/magento-eventobservers.md)
 - [Como configurar o xdebug](./topics/magento-xdebug.md)
-- [Como configurar o CodeSniffer](./topics/magento-codesniffer.md)
+- [Como configurar o PHP e o CodeSniffer](./topics/magento-codesniffer.md)
 - [Como instalar e configurar o grunt](./topics/magento-grunt.md)
 - [Como criar language pack (Ou estender)](./topics/magento-languagepack.md)
 - [Como criar patches](./topics/magento-patches.md)
 - [Google Tag Manager - DataLayer](./topics/magento-DataLayer.md)
+- [Fluxo de trabalho: Infobase](./topics/magento/fluxo-de-trabalho-na-infobase.md)
+
+## Front end
 
 ### Tutoriais
 
@@ -56,7 +57,7 @@
 
 - [Documentação Javascript Developer Guide](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/bk-javascript-dev-guide.html)
 - [Como carregar javascript em um arquivo .phtml](./topics/templatejs.md)
-- [Como carregar javascript independente](./topics/loadjs.md)
+- [Como carregar javascript com a tag x-magento-init](./topics/magentoinitjs.md)
 - [Como criar components js](./topics/componentesjs.md)
 - [KnockoutJS: O que são observables](./topics/observables.md)
 - [KnockoutJS: Scope bind](./topics/scope.md)
@@ -67,6 +68,7 @@
 ### RequireJS
 
 - [Arquivo requirejs-config.js](./topics/magento-requirejs-config.md)
+    - [Mapear javascript existente para meu próprio arquivo javascript](./topics/magento/mapear-javascript.md)
 - [Mixins](./topics/mixins.md)
 
 
@@ -86,6 +88,12 @@
 - [Como colocar hyperlink em mensagens do messageManager](./topics/magento-hyperlinkmessagemanager.md)
 - [Um modelo superior ao Chain of Responsability](./topics/magento-modelosuperior.md)
 - [Atributos de produto](./topics/magento-atributos-de-produto.md)
+- [Data patch](./topics/magento/data-patch.md)
+- [GTM no Magento 2](./topics/magento/gtm.md)
+- [Como enviar email de forma programática](./topics/magento/sendemail.md)
+
+### Attributes
+- [Inserindo atributos nos formulários do frontend](./topics/magento/formattributes.md)
 
 ### Logs
 
@@ -133,12 +141,15 @@
 ### Database
 
 - [Setup Database](./topics/setupdb.md)
+- [Criar tabela (db_schema.xml)](./topics/magento/db_schema.md)
 - [CRUD Models (Model, ResourceModel, Collection)](./topics/orm.md)
+    - [Definindo métodos com interface](./topics/magento/orm-interface.md)
 - [Factory Object](./topics/factoryobject.md)
 - [Como carregar, salvar ou deletar um registro de uma tabela](./topics/magento-carregarsalvardeletar.md)
     - [Repository pattern no Magento 2](./topics/magento-repositorypattern.md)
 - [Como manipular collections](./topics/magento-collections.md)
 - [Como rodar raw sql queries](./topics/magento-sqlquery.md)
+- [Como usar SearchCriteria](./topics/magento/search-criteria.md)
 
 ### Classes
 
@@ -186,6 +197,7 @@
 
 ### Magento cloud
 - [Como baixar arquivos do magento cloud](./topics/magento-baixarcloud.md)
+- [Como fazer dumb via cli](./topics/magento/dumpcli.md)
 
 ### Magento community/enterprise
 - [Como acessar a máquina via ssh](./topics/magento-community-acessarmaquina.md)
@@ -193,6 +205,7 @@
 - [Como fazer deploy](./topics/magento-notcloud-deploy.md)
 
 ### Nestle workflow
+- [Como criar um repositório](./topics/magento/criar-repositorio.md)
 - [Como fazer upload de um módulo](./topics/magento-nestle.md)
 - [Como customizar um repositório](./topics/magento-nestle-repositorio.md)
 
@@ -201,3 +214,7 @@
 - [Como preparar o ambiente para criação de testes unitários](./topics/magento-unittest.md)
 - [Passo-a-passo: Desenvolvendo seu primeiro teste unitário](./topics/magento/unittest-passo-a-passo.md)
 - [Teste unitário: How to's](./topics/magento/unittest-howto.md)
+
+### Módulos
+
+- [Smile Elasticsuite](./topics/magento/smile-elastic-suite.md)
