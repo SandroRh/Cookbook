@@ -1,0 +1,2 @@
+- `docker container run ubuntu echo "Olá mundo"`
+- `docker container run -p 12345:3000 -v $PWD/:/var/www/html -w /var/www/html node npm start`
