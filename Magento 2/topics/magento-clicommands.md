@@ -1,0 +1,1 @@
+https://devdocs.magento.com/guides/v2.4/extension-dev-guide/cli-cmds/cli-howto.html

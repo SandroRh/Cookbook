@@ -1,0 +1,1 @@
+- `docker container prune`: Apagar todos os containres.
