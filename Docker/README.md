@@ -9,7 +9,7 @@
 - [Rodar comandos no container via CMD](./topics/docker-cmd.md)
 - [Volumes](./topics/docker-volumes.md)
 - [Entrar em um container que está rodando](./topics/docker-entraremcontainer.md)
-- [Adicionar um usuário ao container](./topics/docker/users.md)
+- [Adicionar um usuário ao container](./topics/users.md)
 
 ### Imagens
 - [Criando as próprias imagens (Dockerfile)](./topics/docker-dockerfile.md)

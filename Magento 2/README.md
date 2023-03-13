@@ -58,6 +58,7 @@
 - [Documentação Javascript Developer Guide](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/bk-javascript-dev-guide.html)
 - [Como carregar javascript em um arquivo .phtml](./topics/templatejs.md)
 - [Como carregar javascript com a tag x-magento-init](./topics/magentoinitjs.md)
+- [Como carregar javascript em um módulo](./topics/loadjs.md)
 - [Como criar components js](./topics/componentesjs.md)
 - [KnockoutJS: O que são observables](./topics/observables.md)
 - [KnockoutJS: Scope bind](./topics/scope.md)

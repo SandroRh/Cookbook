@@ -9,7 +9,6 @@
 
 ### Arquitetura
 - [Classes de domínio, Entidades e Value Objects](./topics/arq-entidades.md)
-- [S.O.L.I.D](./topics/phpsolid.md)
 - [Object Calisthenics](./topics/phpobjectcalisthenics.md)
 - [Design Patterns: Padrões comportamentais](./topics/padroescomportamentais.md)
 
