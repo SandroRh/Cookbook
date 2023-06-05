@@ -1,4 +1,5 @@
 # Como criar uma API Rest
+https://developer.adobe.com/commerce/php/tutorials/backend/create-custom-rest-api/
 
 ## Passo 1: Criar webapi.xml em /etc
 
@@ -84,13 +85,11 @@ class DateChange implements DateChangeInterface
      */
     public function getPost(int $storeCode, int $id)
     {
-        $response = ['success' => false];
-
         try {
             // Your Code here
 
             $response = ['success' => true, 'message' => 'lalala'];
-        } catch (\Exception $e) {
+        } catch (\Throwable $e) {
             $response = ['success' => false, 'message' => $e->getMessage()];
             $this->logger->info($e->getMessage());
         }

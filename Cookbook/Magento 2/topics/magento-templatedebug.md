@@ -24,4 +24,4 @@ Now, press “alt + F8” (ou utilize a aba Console), which will open a dialogue
 - To determine the name of the parent block, type in “$this->getParentBlock()”. In this case, it returns false because this block has no parent; it is a top-level block, which is helpful to know. If it did have a parent, it would return that block.
 - To find a list of child blocks, “$this->getChildNames()”.
 - To retrieve the object of any block on the page, type “$this->getLayout()->getBlock(‘nameOfBlock)”
-Great, now you are equipped with some powerful debugging techniques for uncovering information about the blocks and template files you are editing!
+  Great, now you are equipped with some powerful debugging techniques for uncovering information about the blocks and template files you are editing!

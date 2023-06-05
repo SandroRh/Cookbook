@@ -16,6 +16,22 @@ class Data extends AbstractHelper
         $this->resourceConnection = $resourceConnection;
         parent::__construct($context);
     }
+
+    public function select()
+    {
+        $connection = $this->resourceConnection->getConnection();
+        $select = $connection->select()
+            ->from(
+                'sales_shipment_item',
+                [
+                    'sku'
+                ]
+            )
+            ->where('parent_id = ?', '3381908');
+
+        return $connection->fetchOne($select);
+    }
+
     public function runSqlQuery($table)
     {
         $connection = $this->resourceConnection->getConnection();

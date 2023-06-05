@@ -1,3 +1,5 @@
+https://developer.adobe.com/commerce/php/development/components/plugins/
+
 ## Exemplo
 
 ```xml
@@ -51,6 +53,18 @@ class LoginPost
     {
         $result->setPath($this->getPostReferer());
         return $result;
+    }
+
+    /**
+     * @param $subject
+     * @param $product
+     * @param $request
+     * @param $processMode
+     * @return null
+     */
+    public function beforeAddProduct($subject, $product, $request = null, $processMode)
+    {
+        return null;
     }
 }
 ```

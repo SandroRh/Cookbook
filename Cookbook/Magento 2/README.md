@@ -3,6 +3,8 @@
 - [Adobe Certified Professional](./topics/certifications.md)
 
 ## Geral
+
+- [Como usar a documentação do Magento?](./topics/documentacao_magento.md)
 - [Fluxo de trabalho de projetos com docker](./topics/magento-fluxodetrabalho.md)
 - [Fluxo de trabalho no GitLab](./topics/magento-fluxogitlab.md)
 - [Events e Observers](./topics/magento-eventobservers.md)
@@ -21,6 +23,7 @@
 - [Como fazer login por redes sociais](./topics/magento-loginredessociais.md)
 
 ### Tema
+
 - [Criando um tema](./topics/criando-tema.md)
 - [Estrutura de uma página](./topics/estrutura.md)
 - [Localizando módulos](./topics/localizando-modulos.md)
@@ -35,6 +38,7 @@
 - [Como importar fontes](./topics/importar-fontes.md)
 
 ### Email Template
+
 - [Workflow com Email Template](./topics/workflowemailtemplate.md)
 - [Como adicionar imagens](./topics/addimages.md)
 - [Inserir código php em um email template através de um block](./topics/emailblock.md)
@@ -58,6 +62,7 @@
 - [Documentação Javascript Developer Guide](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/bk-javascript-dev-guide.html)
 - [Como carregar javascript em um arquivo .phtml](./topics/templatejs.md)
 - [Como carregar javascript com a tag x-magento-init](./topics/magentoinitjs.md)
+- [Como carregar javascript em um módulo](./topics/loadjs.md)
 - [Como criar components js](./topics/componentesjs.md)
 - [KnockoutJS: O que são observables](./topics/observables.md)
 - [KnockoutJS: Scope bind](./topics/scope.md)
@@ -68,9 +73,8 @@
 ### RequireJS
 
 - [Arquivo requirejs-config.js](./topics/magento-requirejs-config.md)
-    - [Mapear javascript existente para meu próprio arquivo javascript](./topics/magento/mapear-javascript.md)
+  - [Mapear javascript existente para meu próprio arquivo javascript](./topics/magento/mapear-javascript.md)
 - [Mixins](./topics/mixins.md)
-
 
 ### Templates (.phtml)
 
@@ -91,8 +95,18 @@
 - [Data patch](./topics/data-patch.md)
 - [GTM no Magento 2](./topics/gtm.md)
 - [Como enviar email de forma programática](./topics/sendemail.md)
+- [Como criar um carrinho para um cliente via API](./topics/criarcarrinho.md)
+- [Gestão de inventário](./topics/inventorymanagement.md)
+- [Produtos bundle e configuráveis](./topics/bundleandconfigurable.md)
+- [PASSO-A-PASSO INSERINDO IMAGEM EM UM PRODUTO VIA BANCO DE DADOS](./topics/inserindoimagem.md)
+- [Documentar API com Postman](./topics/apipostmandoc.md)
+- [Create custom action cart price rules](./topics/cartpriceaction.md)
+- [Indexação](./topics/index.md)
+- [MySQL: Extrair salable quantity de um produto](./topics/extractsalablequantity.md)
+- [Reward Points](./topics/rewardpoints.md)
 
 ### Attributes
+
 - [Inserindo atributos nos formulários do frontend](./topics/formattributes.md)
 
 ### Logs
@@ -131,22 +145,22 @@
 - [Como adicionar itens na listingToolBar](./topics/listingtoolbar.md)
 - [Como usar o exportButton](./topics/exportButton.md)
 - [system.xml, config.xml - Como criar e recuperar configurações (scopeConfig) de Stores -> Configuration](./topics/storesconfiguration.md)
-    - [Como criar um source_model](./topics/sourcemodel.md)
-    - [email_templates.xml](./topics/emailtemplatesxml.md)
+  - [Como criar um source_model](./topics/sourcemodel.md)
+  - [email_templates.xml](./topics/emailtemplatesxml.md)
 - [Admin Menu](./topics/adminmenu.md)
 - [Admin Grid](./topics/grid.md)
-    - [Como adicionar itens em uma admin grid existente](./topics/adicionaritensgrid.md)
-    - [sortOrder da grid não funciona? Veja a solução](./topics/magento-gridsortorder.md)
+  - [Como adicionar itens em uma admin grid existente](./topics/adicionaritensgrid.md)
+  - [sortOrder da grid não funciona? Veja a solução](./topics/magento-gridsortorder.md)
 
 ### Database
 
 - [Setup Database](./topics/setupdb.md)
 - [Criar tabela (db_schema.xml)](./topics/db_schema.md)
 - [CRUD Models (Model, ResourceModel, Collection)](./topics/orm.md)
-    - [Definindo métodos com interface](./topics/orm-interface.md)
+  - [Definindo métodos com interface](./topics/orm-interface.md)
 - [Factory Object](./topics/factoryobject.md)
 - [Como carregar, salvar ou deletar um registro de uma tabela](./topics/magento-carregarsalvardeletar.md)
-    - [Repository pattern no Magento 2](./topics/magento-repositorypattern.md)
+  - [Repository pattern no Magento 2](./topics/magento-repositorypattern.md)
 - [Como manipular collections](./topics/magento-collections.md)
 - [Como rodar raw sql queries](./topics/magento-sqlquery.md)
 - [Como usar SearchCriteria](./topics/search-criteria.md)
@@ -162,6 +176,8 @@
 - [Como criar módulos e fazer rewrite (preference)](./topics/magento-extendclasses.md)
 - [Como fazer override em arquivos XML](./topics/overridexml.md)
 - [Controller e routes](./topics/controllers.md)
+- [Free Gifts](./topics/freegifts.md)
+- [Magento FedEx](./topics/magentofedex.md)
 
 ### XML
 
@@ -170,17 +186,20 @@
 
 ### Error dealing
 
+- [Produto sem estoque aparecendo no frontend](./topics/productwithoutstock.md)
 - [Email template 'universal_subscription_cancel_email_email_templates' is not defined.](./topics/erro1.md)
+- [catalog_product index does not exist yet.](./topics/erro2.md)
 
 ### API
 
+- [Magento Rest API](./topics/magentoapirestoverview.md)
 - [Como criar uma API Rest](./topics/apirest.md)
 
 ### Cron
 
 - [Como criar crons](./topics/magento-cron.md)
-    - [Como as crons do magento funcionam por baixo dos panos](./topics/magento-comofuncionacron.md)
-    - [Cron groups](./topics/magento-crongroups.md)
+  - [Como as crons do magento funcionam por baixo dos panos](./topics/magento-comofuncionacron.md)
+  - [Cron groups](./topics/magento-crongroups.md)
 - [Cron debug (n98)](./topics/n98.md)
 - [Como listar as crons no banco de dados](./topics/listarcrons.md)
 
@@ -188,18 +207,20 @@
 
 - [Configuration flow of UI Components](./topics/uicomponentsconfigflow.md)
 - [Como usar UI Components -> Criando uma tab em customer admin edit](./topics/uicomponentsadmin.md)
-    - [Como adicionar uma ação em uma coluna de uma grid](./topics/uiactioncolumns.md)
-    - [Como pegar o id do customer em customer admin edit](./topics/pegarid.md)
-    - [exports, imports, links nodes](./topics/linkingproperties.md)
-    - [Add edit or delete action](./topics/actions.md)
-    - [Modal ao clicar em action](./topics/modalactions.md)
-    - [Como passar dados de uma linha da grid através de action para outro UI Component, um modal, por exemplo](./topics/actiontomodal.md)
+  - [Como adicionar uma ação em uma coluna de uma grid](./topics/uiactioncolumns.md)
+  - [Como pegar o id do customer em customer admin edit](./topics/pegarid.md)
+  - [exports, imports, links nodes](./topics/linkingproperties.md)
+  - [Add edit or delete action](./topics/actions.md)
+  - [Modal ao clicar em action](./topics/modalactions.md)
+  - [Como passar dados de uma linha da grid através de action para outro UI Component, um modal, por exemplo](./topics/actiontomodal.md)
 
 ### Magento cloud
+
 - [Como baixar arquivos do magento cloud](./topics/magento-baixarcloud.md)
-- [Como fazer dumb via cli](./topics/magento/dumpcli.md)
+- [Como fazer dump via cli](./topics/magento/dumpcli.md)
 
 ### Magento community/enterprise
+
 - [Como acessar a máquina via ssh](./topics/magento-community-acessarmaquina.md)
 - [Como conectar no servidor através do PHPStorm](./topics/magento-community-phpstormservidor.md)
 - [Como fazer deploy](./topics/magento-notcloud-deploy.md)
@@ -213,3 +234,17 @@
 ### Módulos
 
 - [Smile Elasticsuite](./topics/smile-elastic-suite.md)
+
+# Momentum Questions 
+
+- [Shopping Cart](./topics/shoppingcart.md)
+
+# Later
+
+- Aprender sobre design patterns. 
+
+https://developer.adobe.com/commerce/php/best-practices/phpstorm/code-generation/
+https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/
+
+Venda Válida:
+- Documentação do script?
