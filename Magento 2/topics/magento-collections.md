@@ -38,6 +38,11 @@ finset 	    MySQL FIND_IN_SET, for columns with value like “valeur1,    valeur
 $collection->addFieldToFilter('customer_id', array('eq' => 10));
 ```
 
+```php
+// Para passar expressões que não sejam encapsuladas como string
+$bestSellers->addFieldToFilter(new \Zend_Db_Expr('YEAR(period)'), $year);
+```
+
 ## AND condition with collections
 
 You can add a “AND” condition on your collection SQL, you have to put many addFieldToFilter : 

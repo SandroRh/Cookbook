@@ -8,6 +8,8 @@
 
 ## Recursos
 
+Documentação: https://laravel.com/docs/8.x/queues
+
 https://www.youtube.com/watch?v=fADU1GFbjwM
 
 ## O que são Jobs e Queues?
