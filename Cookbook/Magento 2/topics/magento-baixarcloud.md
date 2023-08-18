@@ -19,8 +19,13 @@ Options:
   -y, --yes                          Answer "yes" to any yes/no questions; disable interaction
   -n, --no                           Answer "no" to any yes/no questions; disable interaction
   -v|vv|vvv, --verbose               Increase the verbosity of messages
+```
 
+```bash
 Examples:
+  Obter caminho do arquivo
+  readlink -f openpayCards.log
+
  Copy local files a.txt and b.txt to remote mount var/files:
    magento-cloud scp a.txt b.txt remote:var/files
 
@@ -33,3 +38,5 @@ Examples:
  Copy files inside subdirectory dump/ to remote mount var/files:
    magento-cloud scp -r dump/* remote:var/logs
 ```
+
+magento-cloud scp remote:/app/kny322hrt24u6/var/log/openpayCards.log .

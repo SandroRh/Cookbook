@@ -2,6 +2,7 @@ Documentação: https://devdocs.magento.com/guides/v2.4/config-guide/cron/custom
 
 etc/cron_groups.xml
 ```xml
+<?xml version="1.0"?>
 <config>
     <group id="at_least_one_day">
         <schedule_generate_every>1</schedule_generate_every>

@@ -83,3 +83,21 @@ Gathering patches for dependencies. This might take a minute.
  - Restore original files (rm vendor/module folder and then run composer install)
  - Update composer.json as above
  - composer install (to patch)
+
+ # Magento Cloud environment
+
+ Recurso: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html
+
+## Verificar status dos patches no cloud
+
+```
+php ./vendor/bin/ece-patches status
+```
+
+## Apply Local Patch
+
+https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html#apply-a-patch-in-a-local-environment
+
+## Apply Patch on Magento Cloud
+
+https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html#apply-a-patch-in-a-remote-environment
