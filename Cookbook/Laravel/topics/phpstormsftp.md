@@ -1,1 +1,0 @@
-Você pode conectar o phpstorm ao servidor remoto por meio do SFTP, para fazer alterações em tempo real.

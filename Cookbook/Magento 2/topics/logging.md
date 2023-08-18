@@ -1,1 +1,0 @@
-https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html?lang=en

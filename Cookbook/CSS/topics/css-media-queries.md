@@ -1,5 +1,0 @@
-```css
-@media screen and (max-width: 767px) {
-    
-}
-```

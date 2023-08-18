@@ -1,1 +1,0 @@
-Esse arquivo comporta as configurações de todos os arquivos js.
