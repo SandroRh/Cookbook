@@ -15,3 +15,11 @@ Sem a indexação, o aplicativo teria que calcular o preço de cada produto em t
 
 https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing
 
+## Query
+
+```sql
+SELECT schedule_id, job_code, status, messages, created_at, scheduled_at, executed_at, finished_at
+FROM kny322hrt24u6.cron_schedule
+WHERE job_code = "indexer_reindex_all_invalid" AND status = "running"
+ORDER BY schedule_id DESC;
+```

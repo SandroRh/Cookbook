@@ -13,7 +13,7 @@ https://developer.adobe.com/commerce/php/development/components/plugins/
 </config>
 ```
 
-Classe PHP
+## Classe PHP
 ```php
 <?php
 
@@ -68,3 +68,6 @@ class LoginPost
     }
 }
 ```
+
+## Around Plugin
+

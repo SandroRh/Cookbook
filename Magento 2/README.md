@@ -12,7 +12,7 @@
 - [Como configurar o PHP e o CodeSniffer](./topics/magento-codesniffer.md)
 - [Como instalar e configurar o grunt](./topics/magento-grunt.md)
 - [Como criar language pack (Ou estender)](./topics/magento-languagepack.md)
-- [Como criar patches](./topics/magento-patches.md)
+- [Como criar patches e/ou aplicar patches](./topics/magento-patches.md)
 - [Google Tag Manager - DataLayer](./topics/magento-DataLayer.md)
 - [Fluxo de trabalho: Infobase](./topics/magento/fluxo-de-trabalho-na-infobase.md)
 
@@ -96,7 +96,7 @@
 - [GTM no Magento 2](./topics/gtm.md)
 - [Como enviar email de forma programática](./topics/sendemail.md)
 - [Como criar um carrinho para um cliente via API](./topics/criarcarrinho.md)
-- [Gestão de inventário](./topics/inventorymanagement.md)
+- [Gestão de inventário, stock](./topics/inventorymanagement.md)
 - [Produtos bundle e configuráveis](./topics/bundleandconfigurable.md)
 - [PASSO-A-PASSO INSERINDO IMAGEM EM UM PRODUTO VIA BANCO DE DADOS](./topics/inserindoimagem.md)
 - [Documentar API com Postman](./topics/apipostmandoc.md)
@@ -104,6 +104,11 @@
 - [Indexação](./topics/index.md)
 - [MySQL: Extrair salable quantity de um produto](./topics/extractsalablequantity.md)
 - [Reward Points](./topics/rewardpoints.md)
+- [Content Security Policy (CSP)](./topics/csp.md)
+- [Otimização da velocidade do site](./topics/otimizacao.md)
+- [Get Module Path/Dir](./topics/modulepathdir.md)
+- [Cloud: Configurar PHP e mais com .magento.app.yaml file](./topics/magentoappyaml.md)
+- [Speed up deploy de static-content](./topics/static-content-deploy.md)
 
 ### Attributes
 
@@ -123,6 +128,7 @@
 - [Como encontrar templates, blocks e arquivos XML](./topics/magento-templatedebug.md)
 - [Como ver todos os layouts (xml) carregados em uma página](./topics/magento-debuglayout.md)
 - [Como debuggar SQL Queries](./topics/magento-debugsql.md)
+- [Tricks para encontrar quem altera ou acessa qualquer valor no Magento](./topics/debugtricks.md)
 
 ### Plugins
 
@@ -155,7 +161,7 @@
 ### Database
 
 - [Setup Database](./topics/setupdb.md)
-- [Criar tabela (db_schema.xml)](./topics/db_schema.md)
+- [Declarative schema (db_schema.xml)](./topics/db_schema.md)
 - [CRUD Models (Model, ResourceModel, Collection)](./topics/orm.md)
   - [Definindo métodos com interface](./topics/orm-interface.md)
 - [Factory Object](./topics/factoryobject.md)
@@ -164,6 +170,11 @@
 - [Como manipular collections](./topics/magento-collections.md)
 - [Como rodar raw sql queries](./topics/magento-sqlquery.md)
 - [Como usar SearchCriteria](./topics/search-criteria.md)
+
+### Adobe Commerce
+
+- [Logging](./topics/logging.md)
+- [Debug error 500](./topics/debugerror500.md)
 
 ### Classes
 

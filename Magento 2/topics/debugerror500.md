@@ -1,0 +1,1 @@
+https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/check-logs-to-troubleshoot-500-and-503-errors-on-magento.html?lang=en

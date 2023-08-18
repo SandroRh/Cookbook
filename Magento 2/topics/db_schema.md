@@ -1,3 +1,5 @@
+Documentação: https://developer.adobe.com/commerce/php/development/components/declarative-schema/configuration/#add-an-index
+
 `etc/db_schema.xml` (Exemplo)
 ```xml
 <?xml version="1.0"?>

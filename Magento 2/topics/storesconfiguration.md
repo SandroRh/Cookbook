@@ -116,3 +116,5 @@ class Data extends AbstractHelper
     }
 }
 ```
+
+- Se $storeId não for especificado, a função vai utilizar o escopo da loja utilizada. Esse parâmetro é útil em crons, por exemplo. 
