@@ -1,0 +1,1 @@
+https://github.com/Smile-SA/magento2-module-gift-sales-rule

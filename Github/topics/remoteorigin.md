@@ -1,0 +1,1 @@
+git remote set-url origin https://sandro-rohan@bitbucket.org/magento-cloud-ajinomoto/ajinomoto-m2-cloud-integration.git
